@@ -14,7 +14,7 @@ $b: 0.15em;
 	width: 13em;
 	border-radius: $r;
 	height: $h;
-	font: clamp(0.625em, 1.8vw, 3em) monospace;
+	font-size: larger;
 	background: linear-gradient(#171717, #272626);
 	&::-webkit-progress-bar {
 		background: transparent;
@@ -34,7 +34,11 @@ $b: 0.15em;
 #progressHeader {
 	position: relative;
 	left: 1em;
-	bottom: 1.6em;
+	bottom: 2.2em;
 	margin: 0 0;
-	font: clamp(0.33em, 0.9vw, 1.5em) monospace;
+	font-size: 0.6rem;
+}
+
+p {
+	margin: 0 0;
 }

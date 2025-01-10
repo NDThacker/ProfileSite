@@ -1,0 +1,17 @@
+#aboutContainer {
+    background: url(aboutme.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    margin: 0 0;
+}
+#aboutContainer p {
+    background-color: lightgray;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    position: relative;
+    top: 2rem;
+    left: 60vw;
+    width: 36vw;
+}

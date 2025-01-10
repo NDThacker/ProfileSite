@@ -1,0 +1,11 @@
+img {
+    width: clamp(30vw, 32vw, 40vw);
+    height: 32vh;
+    border: 4px solid darkgray;
+    border-radius: 4px;
+    box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  #artifact p, #artifact h4{
+    margin-bottom: 0.8rem;
+  }
