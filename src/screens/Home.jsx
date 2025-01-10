@@ -24,7 +24,7 @@ export default function Home() {
         <TimeLineItem
           title="May 2019"
           description="Completed Undergraduation with 8.43 CPA"
-          imgUrl="ddu.jpg"
+          imgUrl="graduation.jpg"
           justify="right"
         />
       </article>
@@ -40,7 +40,7 @@ export default function Home() {
         <TimeLineItem
           title="Oct 2019"
           description="Joined Infosys Pune"
-          imgUrl="ddu.jpg"
+          imgUrl="punedc.jpeg"
           justify="right"
         />
       </article>
@@ -56,7 +56,7 @@ export default function Home() {
         <TimeLineItem
           title="Dec 2024"
           description="Started as Associate Staff Engineer at Nagarro"
-          imgUrl="nagarrologo2.jpeg"
+          imgUrl="NagarroNewLogo.png"
           justify="right"
         />
       </article>

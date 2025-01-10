@@ -18,26 +18,26 @@ export default function Skills() {
     [
       "Languages",
       <div className="category" key="ProgrammingLanguages">
-        <ProgressBar value={70} title="Nodejs" />
-        <ProgressBar value={70} title="Python" />
-        <ProgressBar value={70} title="Java" />
-        <ProgressBar value={70} title="Bash" />
+        <ProgressBar value={90} title="Nodejs" />
+        <ProgressBar value={85} title="Python" />
+        <ProgressBar value={85} title="Java" />
+        <ProgressBar value={80} title="Bash" />
       </div>,
     ],
     [
       "Frontend",
       <div className="category" key="FrontendTechnologies">
-        <ProgressBar value={70} title="Reactjs" />
-        <ProgressBar value={70} title="Redux" />
-        <ProgressBar value={70} title="Vuejs" />
-        <ProgressBar value={70} title="HTML5" />
-        <ProgressBar value={70} title="CSS3" />
+        <ProgressBar value={90} title="Reactjs" />
+        <ProgressBar value={80} title="Redux" />
+        <ProgressBar value={75} title="Vuejs" />
+        <ProgressBar value={90} title="HTML5" />
+        <ProgressBar value={85} title="CSS3" />
       </div>,
     ],
     [
       "Backend",
       <div className="category" key="BackendTechnologies">
-        <ProgressBar value={70} title="Expressjs" />
+        <ProgressBar value={90} title="Expressjs" />
         <ProgressBar value={70} title="Django" />
         <ProgressBar value={70} title="Flask" />
       </div>,
@@ -52,16 +52,16 @@ export default function Skills() {
     [
       "Cloud",
       <div className="category" key="CloudDevelopment">
-        <ProgressBar value={70} title="AWS" />
+        <ProgressBar value={80} title="AWS" />
         <ProgressBar value={70} title="GCP" />
-        <ProgressBar value={70} title="Azure" />
+        <ProgressBar value={75} title="Azure" />
       </div>,
     ],
     [
       "Tools",
       <div className="category" key="ComplementoryTools">
-        <ProgressBar value={70} title="Git" />
-        <ProgressBar value={70} title="Gulp" />
+        <ProgressBar value={90} title="Git" />
+        <ProgressBar value={80} title="Gulp" />
         <ProgressBar value={70} title="Unit Testing" />
       </div>,
     ],
