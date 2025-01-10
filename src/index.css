@@ -14,6 +14,9 @@
 body {
 	width: 100vw;
 	margin: 0;
+  background: linear-gradient(#C1AEBC, #FFFFFF);
+  background-repeat: no-repeat;
+  height: max(auto, 100vh);
 }
 
 /* a {
