@@ -1,0 +1,38 @@
+.icon {
+    font-size: 1.6rem;
+}
+
+.icon:hover {
+    transform: rotateZ(360deg) scale(1.2, 1.2);
+    transition: transform 0.5s ease;
+}
+
+#socialLinks {
+    display: flex;
+    margin: 1rem auto;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#contactContainer {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 4rem;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+a[href="https://cal.com/naman-thacker"] {
+    margin-top: 1rem;
+}
+
+// #details, #socials, #meeting {
+//     border: 1px solid darkgray;
+// }

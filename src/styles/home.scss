@@ -1,0 +1,97 @@
+$start: 40rem;
+
+#mainLine {
+    width: 0px;
+    height: 400vh;
+    border: 2px solid black;
+    margin: 0 auto;
+    box-shadow: 4rem 4rem 4rem rgb(0 0 0 / 0.2)
+  }
+  #heroBanner {
+    padding-left: 2rem;
+    width: 100vw;
+    height: $start;
+    background-image: url('frontImage2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+  }
+  #heroBanner p {
+    font-size: 1.2rem;
+  }
+  
+  .content {
+    position: absolute;
+    left: 50vw;
+    top: $start + 6rem;
+    margin-left: 0.5rem;
+  }
+  
+  .content2 {
+    position: absolute;
+    right: 51vw;
+    top: $start + 32rem;
+    margin-left: 0.5rem;
+  }
+  
+  .content3 {
+    position: absolute;
+    left: 50vw;
+    top: $start + 58rem;
+    margin-left: 0.5rem;
+    
+  }
+  
+  .content4 {
+    position: absolute;
+    right: 51vw;
+    top: $start + 84rem;
+    margin-left: 0.5rem;
+  }
+  
+  .content5 {
+    position: absolute;
+    left: 50vw;
+    top: $start + 110rem;
+    margin-left: 0.5rem;
+  }
+
+  .content6 {
+    position: absolute;
+    right: 51vw;
+    top: $start + 136rem;
+    margin-left: 0.5rem;
+  }
+  
+  @keyframes scrollAnimate {
+    to {
+      opacity: 0;
+      scale: 0.3;
+    }
+    from {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+  .info:nth-child(odd):hover {
+    transform: translateX(20px) rotateZ(10deg);
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .info:nth-child(even):hover {
+    transform: translateX(-20px) rotateZ(-10deg);
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  h4, p {
+    margin: 0 0;
+  }
+
+
+  
+  

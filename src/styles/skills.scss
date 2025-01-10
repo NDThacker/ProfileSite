@@ -1,0 +1,49 @@
+#categoriesContainer {
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+}
+
+#categoriesLabel {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    
+}
+
+.prevCat, .nextCat {
+    opacity: 0.5;
+}
+
+section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+#data {
+    height: 50vh;
+}
+
+.forwardButton {
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+.backwardButton  {
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.catLabel {
+    text-decoration: underline;
+}  
