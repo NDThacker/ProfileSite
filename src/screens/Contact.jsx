@@ -18,7 +18,7 @@ export default function Contact() {
       <article id="socials">
       Find me at @<p id="socialLinks"><br />
         <a href="https://github.com/NDThacker" target="_blank"><i className="fa-brands fa-github icon"></i></a>
-        <a href="https://leetcode.com/u/namandt/" target="_blank"><i className="fa-solid fa-code icon"></i></a>
+        <a href="https://leetcode.com/u/namandt/" target="_blank"><img className="icon leetcode"src="./leetcode.svg" alt="leetcode" /></a>
         <a href="https://hackerrank.com/profile/namanthacker25" target="_blank"><i className="fa-brands fa-hackerrank icon"></i></a>
         <a href="https://linkedin.com/in/naman-thacker-7b915a141/" target="_blank"><i className="fa-brands fa-linkedin icon"></i></a>
         </p>
