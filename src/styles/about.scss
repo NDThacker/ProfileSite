@@ -6,12 +6,28 @@
     height: 100vh;
     margin: 0 0;
 }
-#aboutContainer p {
+#aboutContainer div {
     background-color: lightgray;
     padding: 0.6rem;
     border-radius: 1rem;
     position: relative;
     top: 2rem;
-    left: 60vw;
-    width: 36vw;
+    left: 50vw;
+    width: 48vw;
+    height: 35vh;
+    overflow: hidden;
 }
+
+.aboutContent {
+    color: transparent;
+    background-position: right;
+    background-size: 100% 100%;
+    background-image: linear-gradient(#a0aec0, #a0aec0);
+    display: inline;
+    background-repeat: no-repeat;
+    transition: all 500ms ease-in-out;
+  }
+.aboutContent:hover {
+    color: #000;
+    background-size: 0% 100%;
+  }
