@@ -37,3 +37,21 @@ a[href="https://cal.com/naman-thacker"] {
     width: 1.6rem; 
     height: 1.6rem;
 }
+
+
+/* Cursor */
+.cursor{
+    // border-right: 2px solid rgba(0, 0, 0, .75);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 2s steps(50) 1s 1 normal both;
+}
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
