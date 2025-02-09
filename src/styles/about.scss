@@ -1,39 +1,48 @@
 #aboutContainer {
-    background: url("/aboutme.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100vh;
-    margin: 0 0;
+  background: url("/aboutme.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
+  margin: 0 0;
 }
+
+@media screen and (max-width: 480px) {
+  #aboutContainer {
+    background-size: contain;
+  }
+}
+
 #aboutContainer div {
-    background-color: lightgray;
-    padding: 0.6rem;
-    border-radius: 1rem;
-    position: relative;
-    top: 2rem;
-    left: 50vw;
-    width: 48vw;
-    height: 35vh;
-    overflow: hidden;
+  background-color: lightgray;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 2rem;
+  left: 50vw;
+  width: 48vw;
+  // height: 35vh;
+  overflow: hidden;
 }
 
 .aboutContent {
-    
-    background-position: right;
-    display: inline;
-    background-repeat: no-repeat;
-    animation: letterFade 1s ease-in-out;
+
+  background-position: right;
+  display: inline;
+  background-repeat: no-repeat;
+  animation: letterFade 1s ease-in-out;
+}
+
+@keyframes letterFade {
+  from {
+    background-image: linear-gradient(#a0aec0, #a0aebb);
+    color: transparent;
+    background-size: 100% 100%;
   }
-  @keyframes letterFade {
-    from {
-      background-image: linear-gradient(#a0aec0, #a0aebb);
-      color: transparent;
-      background-size: 100% 100%;
-    }
-    to {
-      // color: #000;
-      background: transparent;
-      background-size: 0% 100%;
-    }
+
+  to {
+    // color: #000;
+    background: transparent;
+    background-size: 0% 100%;
   }
+}

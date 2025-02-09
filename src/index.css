@@ -19,6 +19,20 @@ body {
   height: max(auto, 100vh);
 }
 
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 0.6rem;
+  }
+  img {
+    transform: scale(1, 0.7);
+  }
+  #mainLine {
+    height: 250vh !important;
+  }
+
+
+}
+
 /* a {
   font-weight: 500;
   color: #646cff;
