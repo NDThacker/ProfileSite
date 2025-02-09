@@ -9,3 +9,9 @@
   #artifact p, #artifact h4{
     margin-bottom: 0.8rem;
   }
+
+  @media screen and (max-width: 768px) {
+    #artifact p, #artifact h4 {
+      margin-bottom: 0;
+    }
+  }
