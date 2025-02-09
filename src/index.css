@@ -17,6 +17,7 @@ body {
   background: linear-gradient(#C1AEBC, #FFFFFF);
   background-repeat: no-repeat;
   height: max(auto, 100vh);
+  overflow-x: clip;
 }
 
 @media screen and (max-width: 768px) {
